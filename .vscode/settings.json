@@ -17,10 +17,10 @@
     "editor.wordWrap": "off",
     "editor.formatOnPaste": false,
     "editor.formatOnType": false,
-    "editor.inlineSuggest.enabled": true,
+    //"editor.inlineSuggest.enabled": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.minimap.enabled": false,
-    //"diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.rulers": [
         120
     ],
@@ -136,6 +136,7 @@
     "intelephense.completion.triggerParameterHints": true,
     "intelephense.completion.insertUseDeclaration": true,
     "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+    "intelephense.diagnostics.undefinedSymbols": false,
     "intelephense.trace.server": "messages",
     "intelephense.files.exclude": [
         "**/.git/**",
@@ -154,6 +155,10 @@
         "_ide_helper.php",
         "_ide_helper_models"
     ],
+    // PHP
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
     // Shell
     "[shellscript]": {
         "editor.insertSpaces": false,
@@ -162,14 +167,52 @@
         "editor.tabSize": 4,
         "editor.autoIndent": "advanced"
     },
+    // JSON
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // HTML
+    "html.format.wrapAttributes": "force",
+    "html.format.preserveNewLines": true,
+    "html.suggest.html5": true,
     // CSS
     "css.styleSheets": [
-        "https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css",
+        "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css",
         "/style.css",
         "style.css",
         "${fileBasenameNoExtension}.css"
     ],
     "css.enabledLanguages": [
-        "html"
-    ]
+        "html",
+        "vue",
+        "php",
+        "jsx",
+        "javascriptreact"
+    ],
+    // JS
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.preferences.importModuleSpecifier": "relative",
+    // Emmet
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html",
+        "plaintext": "jinja"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.syntaxProfiles": {
+        "javascript": {
+            "attr_quotes": "single",
+            "tag_nl": true
+        }
+    },
+    // Copilot
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    },
 }
