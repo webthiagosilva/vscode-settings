@@ -1,6 +1,6 @@
 {
     // General
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
@@ -17,7 +17,7 @@
     "editor.wordWrap": "off",
     "editor.formatOnPaste": false,
     "editor.formatOnType": false,
-    //"editor.inlineSuggest.enabled": true,
+    "editor.inlineSuggest.enabled": false,
     "editor.bracketPairColorization.enabled": true,
     "editor.minimap.enabled": false,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -136,7 +136,7 @@
     "intelephense.completion.triggerParameterHints": true,
     "intelephense.completion.insertUseDeclaration": true,
     "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": false,
-    "intelephense.diagnostics.undefinedSymbols": false,
+    "intelephense.diagnostics.undefinedSymbols": true,
     "intelephense.trace.server": "messages",
     "intelephense.files.exclude": [
         "**/.git/**",
@@ -148,7 +148,7 @@
         "**/bower_components/**",
         "**/storage",
         "**/storage/**",
-        "**/tests/**",
+        //"**/tests/**",
         "**/resources/views/**",
         "**/database/migrations/**",
         "**/storage/framework/views/**",
