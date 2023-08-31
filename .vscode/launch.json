@@ -1,25 +1,25 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Docker Xdebug 3",
-      "type": "php",
-      "request": "launch",
-      "port": 9003,
-      "pathMappings": {
-        "/var/www/html": "${workspaceFolder}/src"
-      },
-      "log": true,
-      "hostname": "localhost",
-      "ignore": [
-        "**/vendor/**/*.php"
-      ],
-      "xdebugSettings": {
-        "max_data": 65535,
-        "max_children": 100,
-        "max_depth": 10
-      },
-      "stopOnEntry": false,
-    }
-  ]
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Listen for XDebug",
+			"type": "php",
+			"request": "launch",
+			"port": 9003,
+			"log": false,
+			"pathMappings": {
+				"/var/www/html/backend": "${workspaceFolder}"
+			},
+			"hostname": "localhost",
+			"stopOnEntry": false
+		},
+		{
+			"name": "Launch currently open script",
+			"type": "php",
+			"request": "launch",
+			"program": "${file}",
+			"cwd": "${fileDirname}",
+			"port": 9003
+		}
+	]
 }
