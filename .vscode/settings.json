@@ -17,7 +17,7 @@
     "editor.wordWrap": "off",
     "editor.formatOnPaste": false,
     "editor.formatOnType": false,
-    "editor.inlineSuggest.enabled": false,
+    "editor.inlineSuggest.enabled": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.minimap.enabled": false,
     "diffEditor.ignoreTrimWhitespace": false,
