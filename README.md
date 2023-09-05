@@ -31,13 +31,17 @@ Este repositório oferece configurações otimizadas para VS Code focadas em PHP
 
 ## Extensões Recomendadas
 
-- Intelephense
-- ESLint
-- Prettier
-- HTML CSS Support
+- PHP Intelephense
+- PHP Debug
+- PHP Namespace Resolver
 - JavaScript (ES6) Code Snippets
+- HTML CSS Support
+- Code Runner
 - Docker
-- Xdebug
+- GitLens
+- Dracula Official
+- Material Icon Theme
+- GitHub Copilot
 
 ## Depuração com Docker e Xdebug
 
