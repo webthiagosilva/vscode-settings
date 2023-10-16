@@ -172,7 +172,8 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     // HTML
-    "html.format.wrapAttributes": "force",
+    "html.format.wrapAttributes": "auto",
+    "html.format.wrapLineLength": 0,
     "html.format.preserveNewLines": true,
     "html.suggest.html5": true,
     // CSS
