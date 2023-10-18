@@ -85,6 +85,8 @@
         "mbstring",
         "mcrypt",
         "meta",
+        "mongo",
+        "mongodb",
         "mssql",
         "mysqli",
         "oci8",
