@@ -12,7 +12,7 @@
     "editor.fontLigatures": true,
     "editor.cursorStyle": "line",
     "editor.cursorBlinking": "smooth",
-    "editor.insertSpaces": true,
+    "editor.insertSpaces": false,
     "editor.autoIndent": "advanced",
     "editor.wordWrap": "off",
     "editor.formatOnPaste": false,
