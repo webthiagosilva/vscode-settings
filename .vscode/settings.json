@@ -1,6 +1,6 @@
 {
     // General
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
@@ -163,7 +163,7 @@
     "[shellscript]": {
         "editor.insertSpaces": false,
         "editor.useTabStops": true,
-        "editor.wordBasedSuggestions": true,
+        "editor.wordBasedSuggestions": "matchingDocuments",
         "editor.tabSize": 4,
         "editor.autoIndent": "advanced"
     },
