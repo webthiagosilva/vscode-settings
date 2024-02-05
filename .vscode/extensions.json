@@ -1,0 +1,43 @@
+{
+	"recommendations": [
+		// Theme and Icons
+		"dracula-theme.theme-dracula",
+		"pkief.material-icon-theme",
+
+		// Code Formatting and Linting
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"redhat.vscode-yaml",
+
+		// PHP Development
+		"bmewburn.vscode-intelephense-client",
+		"mehedidracula.php-namespace-resolver",
+		"xdebug.php-debug",
+
+		// Docker Management
+		"ms-azuretools.vscode-docker",
+
+		// Markdown Editing
+		"yzhang.markdown-all-in-one",
+
+		// Version Control
+		"eamodio.gitlens",
+
+		// AI Assistance
+		"github.copilot",
+		"github.copilot-chat",
+
+		// File and Path Management
+		"christian-kohler.path-intellisense",
+
+		// Code Runner
+		"formulahendry.code-runner",
+
+		// css
+		"pranaygp.vscode-css-peek",
+		"zignd.html-css-class-completion",
+
+		// html
+		"ecmel.vscode-html-css"
+	]
+}
