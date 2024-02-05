@@ -154,6 +154,11 @@
 	"[yaml]": {
 		"editor.defaultFormatter": "redhat.vscode-yaml"
 	},
+	"[makefile]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4,
+		"editor.autoIndent": "advanced"
+	},
 	// Emmet
 	"emmet.includeLanguages": {
 		"javascript": "javascriptreact",
