@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+    php-fpm:
+        build:
+            context: ./docker
+            dockerfile: php.Dockerfile
+        volumes:
+            - ./:/var/www/html
+        networks:
+            - app-network
+
+    node:
+        build:
+            context: ./docker
+            dockerfile: node.Dockerfile
+        volumes:
+            - ./:/usr/src/app
+        networks:
+            - app-network
+
+    nginx:
+        build:
+            context: ./docker
+            dockerfile: nginx.Dockerfile
+        ports:
+            - '80:80'
+        volumes:
+            - ./:/var/www/html
+        networks:
+            - app-network
+
+networks:
+    app-network:
+        driver: bridge

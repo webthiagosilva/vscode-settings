@@ -1,0 +1,38 @@
+version: "3.8"
+
+services:
+    php:
+        build:
+            context: .
+            dockerfile: docker/php/Dockerfile
+        image: php:8.3-fpm
+        container_name: php-fpm-8.3
+        restart: unless-stopped
+        ports:
+            - "9000:9000"
+        volumes:
+            - ./:/var/www/html
+        networks:
+            - workspace-network
+
+    node:
+        build:
+            context: .
+            dockerfile: docker/node/Dockerfile
+        image: node-20.11
+        container_name: node-20.11
+        restart: unless-stopped
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./:/var/www/html
+        networks:
+            - workspace-network
+
+networks:
+    workspace-network:
+        driver: bridge
+
+volumes:
+    php:
+    node:
