@@ -154,6 +154,7 @@
 	"[yaml]": {
 		"editor.defaultFormatter": "redhat.vscode-yaml"
 	},
+	// Makefile
 	"[makefile]": {
 		"editor.insertSpaces": false,
 		"editor.tabSize": 4,

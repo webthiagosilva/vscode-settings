@@ -28,6 +28,16 @@
 		"github.copilot-chat",
 
 		// File and Path Management
-		"christian-kohler.path-intellisense"
+		"christian-kohler.path-intellisense",
+
+		// Code Runner
+		"formulahendry.code-runner",
+
+		// css
+		"pranaygp.vscode-css-peek",
+		"zignd.html-css-class-completion",
+
+		// html
+		"ecmel.vscode-html-css"
 	]
 }
