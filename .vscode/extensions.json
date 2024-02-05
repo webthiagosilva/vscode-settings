@@ -1,0 +1,24 @@
+{
+	"recommendations": [
+		// Theme
+		"dracula-theme.theme-dracula",
+		"pkief.material-icon-theme",
+		// Linter
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"redhat.vscode-yaml",
+		// PHP
+		"bmewburn.vscode-intelephense-client",
+		"mehedidracula.php-namespace-resolver",
+		"xdebug.php-debug",
+		// Docker
+		"ms-azuretools.vscode-docker",
+		// Markdown
+		"yzhang.markdown-all-in-one",
+		// Git
+		"eamodio.gitlens",
+		// Copilot
+		"github.copilot",
+		"github.copilot-chat"
+	]
+}
