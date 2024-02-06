@@ -268,11 +268,11 @@
 		"**/.phpunit"
 	],
 	// ESLint
-	"eslint.alwaysShowStatus": true,
 	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
 	"eslint.options": {
 		"extensions": [".js", ".jsx", ".ts", ".tsx"]
 	},
+	"eslint.workingDirectories": [{ "mode": "auto" }],
 	"eslint.lintTask.enable": true,
 	// Prettier
 	"prettier.singleQuote": true,
