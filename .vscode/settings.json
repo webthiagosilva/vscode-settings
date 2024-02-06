@@ -253,7 +253,19 @@
 	"intelephense.diagnostics.undefinedSymbols": true,
 	"intelephense.trace.server": "messages",
 	"intelephense.files.exclude": [
-		/* List of patterns */
+		"**/.git/**",
+		"**/.svn/**",
+		"**/.hg/**",
+		"**/CVS/**",
+		"**/.DS_Store/**",
+		"**/node_modules/**",
+		"**/bower_components/**",
+		"**/vendor/**",
+		"**/.vscode/**",
+		"**/.github/**",
+		"**/.idea/**",
+		"**/.phpunit.result.cache",
+		"**/.phpunit"
 	],
 	// ESLint
 	"eslint.alwaysShowStatus": true,
