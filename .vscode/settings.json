@@ -53,6 +53,8 @@
 	"security.workspace.trust.enabled": false,
 	"security.workspace.trust.untrustedFiles": "open",
 	// Intelephense
+	"php.validate.enable": false,
+	"php.suggest.basic": false,
 	"intelephense.stubs": [
 		"aerospike",
 		"amqp",
@@ -260,7 +262,7 @@
 		"**/.DS_Store/**",
 		"**/node_modules/**",
 		"**/bower_components/**",
-		"**/vendor/**",
+		// "**/vendor/**",
 		"**/.vscode/**",
 		"**/.github/**",
 		"**/.idea/**",
@@ -268,30 +270,8 @@
 		"**/.phpunit"
 	],
 	// ESLint
-	"eslint.validate": ["javascript", "javascriptreact"],
-	"eslint.options": {
-		"extensions": [".js", ".jsx"],
-		"env": {
-			"browser": true,
-			"node": true,
-			"es6": true
-		},
-		"parserOptions": {
-			"ecmaVersion": 2021,
-			"sourceType": "module",
-			"ecmaFeatures": {
-				"jsx": true
-			}
-		},
-		"rules": {
-			"semi": ["error", "always"],
-			"quotes": ["error", "double"]
-		},
-		"ignorePatterns": ["**/node_modules/**", "**/bower_components/**", "**/vendor/**"]
-	},
-	"eslint.workingDirectories": [{ "mode": "auto" }],
+	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
 	"eslint.lintTask.enable": true,
-
 	// Prettier
 	"prettier.singleQuote": true,
 	"prettier.printWidth": 120,
