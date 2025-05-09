@@ -1,43 +1,69 @@
 {
-	"recommendations": [
-		// Theme and Icons
-		"dracula-theme.theme-dracula",
-		"pkief.material-icon-theme",
+    "recommendations": [
+        // General
+        "gruntfuggly.todo-tree",
 
-		// Code Formatting and Linting
-		"dbaeumer.vscode-eslint",
-		"esbenp.prettier-vscode",
-		"redhat.vscode-yaml",
+        // Theme and Icons
+        "dracula-theme.theme-dracula",
+        "pkief.material-icon-theme",
 
-		// PHP Development
-		"bmewburn.vscode-intelephense-client",
-		"mehedidracula.php-namespace-resolver",
-		"xdebug.php-debug",
+        // Code Formatting and Linting
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "redhat.vscode-yaml",
+        "redhat.vscode-xml",
+        "editorconfig.editorconfig",
+        "streetsidesoftware.code-spell-checker",
 
-		// Docker Management
-		"ms-azuretools.vscode-docker",
+        // PHP Development
+        "bmewburn.vscode-intelephense-client",
+        "mehedidracula.php-namespace-resolver",
+        "xdebug.php-debug",
+        "recca0120.vscode-phpunit",
+        "laravel.vscode-laravel",
 
-		// Markdown Editing
-		"yzhang.markdown-all-in-one",
+        // Bash Development
+        "foxundermoon.shell-format",
+        "timonwong.shellcheck",
+        "foxundermoon.shell-format",
 
-		// Version Control
-		"eamodio.gitlens",
+        // html
+        "ecmel.vscode-html-css",
 
-		// AI Assistance
-		"github.copilot",
-		"github.copilot-chat",
+        // css
+        "pranaygp.vscode-css-peek",
+        "zignd.html-css-class-completion",
+        "bradlc.vscode-tailwindcss",
 
-		// File and Path Management
-		"christian-kohler.path-intellisense",
+        // JavaScript Development
+        "ms-vscode.vscode-typescript-next",
 
-		// Code Runner
-		"formulahendry.code-runner",
+        // Docker Management
+        "ms-azuretools.vscode-containers",
 
-		// css
-		"pranaygp.vscode-css-peek",
-		"zignd.html-css-class-completion",
+        // Markdown Editing
+        "yzhang.markdown-all-in-one",
 
-		// html
-		"ecmel.vscode-html-css"
-	]
+        // Version Control
+        "eamodio.gitlens",
+
+        // File and Path Management
+        "christian-kohler.path-intellisense",
+
+        // Code Runner
+        "formulahendry.code-runner",
+
+        // Bookmarks
+        "alefragnani.Bookmarks",
+
+        // NginX
+        "ahmadalli.vscode-nginx-conf",
+
+        // CSV
+        "mechatroner.rainbow-csv",
+
+        // AI Assistance
+        "github.copilot",
+        "github.copilot-chat"
+    ]
 }

@@ -1,342 +1,212 @@
 {
-	"workbench.colorTheme": "Dracula",
-	"workbench.iconTheme": "material-icon-theme",
-	"workbench.startupEditor": "welcomePageInEmptyWorkbench",
-	// Editor
-	"editor.tabSize": 4,
-	"editor.fontSize": 14,
-	"editor.lineHeight": 24,
-	"editor.letterSpacing": 0.5,
-	"editor.fontLigatures": true,
-	"editor.cursorStyle": "line",
-	"editor.cursorBlinking": "smooth",
-	"editor.insertSpaces": false,
-	"editor.autoIndent": "advanced",
-	"editor.wordWrap": "off",
-	"editor.formatOnPaste": true,
-	"editor.formatOnType": true,
-	"editor.inlineSuggest.enabled": true,
-	"editor.bracketPairColorization.enabled": true,
-	"editor.minimap.enabled": false,
-	"diffEditor.ignoreTrimWhitespace": false,
-	"editor.rulers": [80, 120],
-	// Explorer
-	"explorer.confirmDragAndDrop": true,
-	"explorer.confirmDelete": true,
-	"explorer.compactFolders": false,
-	"explorer.autoReveal": true,
-	"explorer.openEditors.visible": 1,
-	// Files
-	"files.eol": "\n",
-	"files.insertFinalNewline": true,
-	"files.trimTrailingWhitespace": true,
-	"files.associations": {
-		"*.blade.php": "php",
-		"*.vue": "vue",
-		"*.php-cs": "php",
-		"*.js": "javascript",
-		"*.jsx": "javascript",
-		"*.ts": "typescript",
-		"*.tsx": "typescript",
-		"docker-compose*": "yaml"
-	},
-	// Search
-	"search.collapseResults": "alwaysCollapse",
-	"search.showLineNumbers": true,
-	"search.exclude": {
-		"**/node_modules": true,
-		"**/bower_components": true,
-		"**/vendor": true,
-		"**/*.code-search": true
-	},
-	// Security
-	"security.workspace.trust.enabled": false,
-	"security.workspace.trust.untrustedFiles": "open",
-	// Intelephense
-	"php.validate.enable": false,
-	"php.suggest.basic": false,
-	"intelephense.stubs": [
-		"aerospike",
-		"amqp",
-		"apache",
-		"apcu",
-		"ast",
-		"bcmath",
-		"blackfire",
-		"bz2",
-		"calendar",
-		"cassandra",
-		"com_dotnet",
-		"Core",
-		"couchbase",
-		"couchbase_v2",
-		"crypto",
-		"ctype",
-		"cubrid",
-		"curl",
-		"date",
-		"dba",
-		"decimal",
-		"dio",
-		"dom",
-		"ds",
-		"eio",
-		"elastic_apm",
-		"enchant",
-		"Ev",
-		"event",
-		"exif",
-		"expect",
-		"fann",
-		"FFI",
-		"ffmpeg",
-		"fileinfo",
-		"filter",
-		"fpm",
-		"ftp",
-		"gd",
-		"gearman",
-		"geoip",
-		"geos",
-		"gettext",
-		"gmagick",
-		"gmp",
-		"gnupg",
-		"grpc",
-		"hash",
-		"http",
-		"ibm_db2",
-		"iconv",
-		"igbinary",
-		"imagick",
-		"imap",
-		"inotify",
-		"interbase",
-		"intl",
-		"json",
-		"judy",
-		"ldap",
-		"leveldb",
-		"libevent",
-		"libsodium",
-		"libvirt-php",
-		"libxml",
-		"lua",
-		"LuaSandbox",
-		"lzf",
-		"mailparse",
-		"mapscript",
-		"mbstring",
-		"mcrypt",
-		"memcache",
-		"memcached",
-		"meminfo",
-		"meta",
-		"ming",
-		"mongo",
-		"mongodb",
-		"mosquitto-php",
-		"mqseries",
-		"msgpack",
-		"mssql",
-		"mysql",
-		"mysql_xdevapi",
-		"mysqli",
-		"ncurses",
-		"newrelic",
-		"oauth",
-		"oci8",
-		"odbc",
-		"openssl",
-		"opentelemetry",
-		"pam",
-		"parallel",
-		"Parle",
-		"pcntl",
-		"pcov",
-		"pcre",
-		"pdflib",
-		"PDO",
-		"pdo_ibm",
-		"pdo_mysql",
-		"pdo_pgsql",
-		"pdo_sqlite",
-		"pgsql",
-		"Phar",
-		"phpdbg",
-		"posix",
-		"pq",
-		"pspell",
-		"pthreads",
-		"radius",
-		"random",
-		"rar",
-		"rdkafka",
-		"readline",
-		"recode",
-		"redis",
-		"Reflection",
-		"regex",
-		"relay",
-		"rpminfo",
-		"rrd",
-		"SaxonC",
-		"session",
-		"shmop",
-		"simple_kafka_client",
-		"SimpleXML",
-		"snappy",
-		"snmp",
-		"soap",
-		"sockets",
-		"sodium",
-		"solr",
-		"SPL",
-		"SplType",
-		"SQLite",
-		"sqlite3",
-		"sqlsrv",
-		"ssh2",
-		"standard",
-		"stats",
-		"stomp",
-		"suhosin",
-		"superglobals",
-		"svm",
-		"svn",
-		"swoole",
-		"sybase",
-		"sync",
-		"sysvmsg",
-		"sysvsem",
-		"sysvshm",
-		"tidy",
-		"tokenizer",
-		"uopz",
-		"uploadprogress",
-		"uuid",
-		"uv",
-		"v8js",
-		"wddx",
-		"win32service",
-		"winbinder",
-		"wincache",
-		"wordpress",
-		"xcache",
-		"xdebug",
-		"xdiff",
-		"xhprof",
-		"xlswriter",
-		"xml",
-		"xmlreader",
-		"xmlrpc",
-		"xmlwriter",
-		"xsl",
-		"xxtea",
-		"yaf",
-		"yaml",
-		"yar",
-		"zend",
-		"Zend OPcache",
-		"ZendCache",
-		"ZendDebugger",
-		"ZendUtils",
-		"zip",
-		"zlib",
-		"zmq",
-		"zookeeper",
-		"zstd"
-	],
-	"intelephense.telemetry.enabled": false,
-	"intelephense.format.enable": true,
-	"intelephense.completion.triggerParameterHints": true,
-	"intelephense.completion.insertUseDeclaration": true,
-	"intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": false,
-	"intelephense.diagnostics.undefinedSymbols": true,
-	"intelephense.trace.server": "messages",
-	"intelephense.files.exclude": [
-		"**/.git/**",
-		"**/.svn/**",
-		"**/.hg/**",
-		"**/CVS/**",
-		"**/.DS_Store/**",
-		"**/node_modules/**",
-		"**/bower_components/**",
-		// "**/vendor/**",
-		"**/.vscode/**",
-		"**/.github/**",
-		"**/.idea/**",
-		"**/.phpunit.result.cache",
-		"**/.phpunit"
-	],
-	// ESLint
-	"eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
-	"eslint.lintTask.enable": true,
-	// Prettier
-	"prettier.singleQuote": true,
-	"prettier.printWidth": 120,
-	"prettier.tabWidth": 4,
-	"prettier.useTabs": true,
-	"prettier.semi": true,
-	"prettier.bracketSpacing": true,
-	"prettier.bracketSameLine": false,
-	"prettier.arrowParens": "avoid",
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	// PHP
-	"[php]": {
-		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-	},
-	// Shell
-	"[shellscript]": {
-		"editor.insertSpaces": false,
-		"editor.useTabStops": true,
-		"editor.wordBasedSuggestions": "allDocuments",
-		"editor.tabSize": 4,
-		"editor.autoIndent": "advanced"
-	},
-	// JSON
-	"[json]": {
-		"editor.defaultFormatter": "vscode.json-language-features"
-	},
-	// Docker
-	"[dockerfile]": {
-		"editor.defaultFormatter": "ms-azuretools.vscode-docker"
-	},
-	// Markdown
-	"[markdown]": {
-		"editor.defaultFormatter": "yzhang.markdown-all-in-one"
-	},
-	// YAML
-	"[yaml]": {
-		"editor.defaultFormatter": "redhat.vscode-yaml"
-	},
-	// Makefile
-	"[makefile]": {
-		"editor.insertSpaces": false,
-		"editor.tabSize": 4,
-		"editor.autoIndent": "advanced"
-	},
-	// Emmet
-	"emmet.includeLanguages": {
-		"javascript": "javascriptreact",
-		"vue-html": "html",
-		"plaintext": "jinja",
-		"blade": "html"
-	},
-	"emmet.triggerExpansionOnTab": true,
-	"emmet.syntaxProfiles": {
-		"javascript": {
-			"attr_quotes": "single",
-			"tag_nl": true
-		}
-	},
-	// Copilot
-	"github.copilot.enable": {
-		"*": true,
-		"yaml": false,
-		"plaintext": true,
-		"markdown": false,
-		"scminput": false
-	},
-	"redhat.telemetry.enabled": false,
+    // 🪟 Janela e Workbench
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": -1,
+    "workbench.sideBar.location": "left",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Dracula Theme",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.enableStickyScroll": false, //Quando ativado, o recurso Sticky Scroll mantém os cabeçalhos ou seções visíveis no topo enquanto você rola por listas ou árvores.
+
+    // 🧠 Editor
+    "editor.tabSize": 4,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 24,
+    "editor.letterSpacing": 0.5,
+    "editor.fontLigatures": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "smooth",
+    //"editor.insertSpaces": false,
+    "editor.autoIndent": "advanced",
+    "editor.wordWrap": "off",
+    "editor.wordWrapColumn": 120,
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.organizeImports": "never"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    //"editor.guides.bracketPairs": "active",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [80, 120],
+    "editor.stickyScroll.enabled": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.suggestSelection": "first",
+    "editor.smoothScrolling": true,
+
+    // 🧭 Navegação
+    "breadcrumbs.enabled": false,
+    "explorer.confirmDelete": true,
+    "explorer.compactFolders": false,
+    "explorer.autoReveal": true,
+    "explorer.openEditors.visible": 1,
+
+    // 📁 Arquivos
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.associations": {
+        //"*.blade.php": "php",
+        "*.vue": "vue",
+        "*.php-cs": "php",
+        "*.js": "javascript",
+        "*.jsx": "javascriptreact",
+        "*.ts": "typescript",
+        "*.tsx": "typescriptreact",
+        "docker-compose*": "yaml",
+        "*.env.development": "env",
+        "*.env.production": "env",
+        "*.env.example": "env",
+        "*.env": "env"
+    },
+
+    // 🔍 Busca
+    "search.collapseResults": "alwaysCollapse",
+    "search.showLineNumbers": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/vendor": true,
+        "**/*.code-search": true
+    },
+
+    // 🔐 Segurança
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+
+    // 🐘 PHP / Intelephense
+    "php.validate.enable": false,
+    "php.suggest.basic": false,
+    "intelephense.telemetry.enabled": false,
+    "intelephense.format.enable": true,
+    "intelephense.format.braces": "per",
+    "intelephense.completion.triggerParameterHints": true,
+    "intelephense.completion.insertUseDeclaration": true,
+    "intelephense.diagnostics.undefinedSymbols": true,
+    "intelephense.environment.includePaths": [],
+    "intelephense.files.maxSize": 5000000,
+    "intelephense.codeLens.implementations.enable": true,
+    "intelephense.codeLens.parent.enable": true,
+    "intelephense.codeLens.overrides.enable": true,
+    "intelephense.codeLens.references.enable": true,
+    "intelephense.codeLens.usages.enable": true,
+    "intelephense.compatibility.preferPsalmPhpstanPrefixedAnnotations": true,
+    "intelephense.completion.fullyQualifyGlobalConstantsAndFunctions": true,
+    "intelephense.references.exclude": [],
+    "intelephense.rename.exclude": ["**/vendor"],
+    "intelephense.files.exclude": [
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/.vscode/**",
+        "**/.github/**",
+        "**/.idea/**",
+        "**/.phpunit.result.cache"
+    ],
+
+    // 🧪 PHPUnit
+    "phpunit.clearOutputOnRun": true,
+    "phpunit.command": "docker exec -t gestao-de-risco-php /bin/sh -c",
+    "phpunit.php": "php",
+    "phpunit.phpunit": "vendor/bin/pest",
+    "phpunit.args": ["-c", "phpunit.xml"],
+    "phpunit.paths": {
+        "${workspaceFolder}": "/var/www/html/gestao-de-risco"
+    },
+
+    // 🧹 ESLint + Prettier
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "eslint.lintTask.enable": true,
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": true,
+    "prettier.semi": true,
+    "prettier.bracketSpacing": true,
+    "prettier.bracketSameLine": false,
+    "prettier.arrowParens": "avoid",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    // 🧠 Copilot
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "markdown": false,
+        "plaintext": true,
+        "scminput": false
+    },
+    "github.copilot.selectedCompletionModel": "gpt-4o-copilot",
+
+    // 🌐 Emmet
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html",
+        "blade": "html"
+    },
+    "emmet.syntaxProfiles": {
+        "javascript": {
+            "attr_quotes": "single",
+            "tag_nl": true
+        }
+    },
+
+    // 🧩 Idioma por arquivo
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[blade]": {
+        "editor.defaultFormatter": "shufo.vscode-blade-formatter"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+    },
+    "[shellscript]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4,
+        "editor.wordBasedSuggestions": "allDocuments",
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[makefile]": {
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4,
+        "editor.autoIndent": "advanced"
+    },
+
+    // 📡 Telemetria desativada
+    "telemetry.enableTelemetry": false,
+    "redhat.telemetry.enabled": false,
 }
